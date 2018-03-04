@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    for (var f = 0; f < 8; f++) {
+    for (var f = 0; f < 5; f++) {
         $.ajax({
             url: `https://api.harvardartmuseums.org/object?size=100&apikey=69c73150-15c6-11e8-a8c0-e776cdb40eae&page=${f}`, //942
             type: 'GET',
